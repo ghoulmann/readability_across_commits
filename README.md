@@ -15,12 +15,14 @@ This repository provides a Python script to analyze the readability of Markdown 
 Ensure you have Python 3.7 or later installed.
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd <repository-folder>
    ```
 
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -30,6 +32,7 @@ Ensure you have Python 3.7 or later installed.
 ### Analyze a Specific File
 
 To compute readability scores for a specific Markdown file:
+
 ```bash
 python composite_readability.py -f <file-path>
 ```
@@ -37,6 +40,7 @@ python composite_readability.py -f <file-path>
 ### Analyze All Markdown Files
 
 To compute scores for all Markdown files in the repository:
+
 ```bash
 python composite_readability.py -a
 ```
@@ -44,6 +48,7 @@ python composite_readability.py -a
 ### Save Results to a File
 
 To save results in a CSV or XLSX file:
+
 ```bash
 python composite_readability.py -a -o results.csv
 ```
@@ -65,6 +70,7 @@ Each metric is normalized and weighted to compute a comprehensive readability sc
 ### Command Output
 
 #### Specific File Analysis
+
 ```
 ## Readability history for file: README.md
 | Commit                             | Date                | Score |
@@ -75,6 +81,7 @@ Each metric is normalized and weighted to compute a comprehensive readability sc
 ```
 
 #### All Files Analysis
+
 ```
 ## Readability history for file: file1.md
 | Commit                             | Date                | Score |
@@ -92,4 +99,3 @@ Each metric is normalized and weighted to compute a comprehensive readability sc
 ## Acknowledgments
 
 This project draws inspiration from [Lexi](https://github.com/Rebilly/lexi), developed by the talented team at Rebilly. Lexi introduced the concept of tracking readability improvements for documentation files in pull requests.
-
