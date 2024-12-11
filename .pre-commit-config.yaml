@@ -5,5 +5,5 @@ repos:
         name: Readability Check for Markdown
         entry: python3 check_readability.py
         language: system
-        pass_filenames: false  # Do not pass filenames, as the script handles staged files
-        files: \.md$           # Only run on Markdown files
+        pass_filenames: false
+        files: \.md$
