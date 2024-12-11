@@ -11,13 +11,7 @@ The results section shows the results of the readability analysis of the text in
 
 Lexi calculates a readability score to estimate the complexity and ease of reading for your documentation files. The score can be used as a guide to help you understand how changes may impact the readability of your documentation.
 
-The score is a scaled combination of several readability tests:
-
-- [Flesch Reading Ease](https://en.wikipedia.org/wiki/Flesch_reading_ease)
-- [Gunning Fog Index](https://en.wikipedia.org/wiki/Gunning_fog_index)
-- [Automated Readability Index (ARI)](https://en.wikipedia.org/wiki/Automated_readability_index)
-- [Dale-Chall Readability Score](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
-- [Coleman–Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
+The score is a scaled combination of several readability tests.
 
 Lexi is a GitHub action which can be used to report a readability score for Markdown files in your pull requests.
 
