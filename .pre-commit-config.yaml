@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: readability-check
+        name: Readability Check for Markdown
+        entry: python3 check_version.py
+        language: system
+        pass_filenames: true  # Pass filenames as arguments to the script
+        files: \.md$         # Only run on Markdown files
