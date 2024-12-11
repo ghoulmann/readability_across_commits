@@ -3,7 +3,7 @@
 import subprocess
 import sys
 from typing import List
-from composite_readability import calculate_readability, markdown_to_text
+from commit_readability_history import calculate_readability, markdown_to_text
 
 def get_staged_files(extension: str) -> List[str]:
     """Retrieve all staged files with the specified extension."""

@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: readability-check
         name: Readability Check for Markdown
-        entry: python3 check_readability.py
+        entry: pipenv run python check_readability.py
         language: system
         pass_filenames: false
         files: \.md$
